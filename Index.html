@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Streaming</title>
+</head>
+<body>
+    <header>
+        <h1>Streaming SMC</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Películas</a></li>
+                <li><a href="/Series.html">Series</a></li>
+            </ul>
+        </nav>
+        <input type="text" id="input">
+        <button id="submit" type="button">Buscar</button>
+    </header>
+    <section class="movie-series" id="boxSeries">
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <iframe id="trailer" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
